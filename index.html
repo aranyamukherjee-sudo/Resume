@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aranya Mukherjee – Technical Lead, IT Production Support</title>
+<meta name="description" content="Technical Lead with 10+ years in IT production support, infrastructure and application operations across banking and financial services.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ffffff;--panel:#f4f6f9;--ink:#1a2433;--muted:#5a6676;--line:#dde2e9;--accent:#1d4f91;--accent-ink:#ffffff;--band:#14233a;--band-ink:#ffffff;--band-muted:#b9c6d8;--chip:#e6edf7;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --sans:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#0f1722;--panel:#162130;--ink:#e7edf5;--muted:#9fb0c3;--line:#26364a;--accent:#8db6ee;--accent-ink:#0f1722;--band:#0a111b;--band-ink:#f2f6fb;--band-muted:#9fb0c3;--chip:#1e2e44}
+}
+:root[data-theme="dark"]{--bg:#0f1722;--panel:#162130;--ink:#e7edf5;--muted:#9fb0c3;--line:#26364a;--accent:#8db6ee;--accent-ink:#0f1722;--band:#0a111b;--band-ink:#f2f6fb;--band-muted:#9fb0c3;--chip:#1e2e44}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 4.5rem)}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.6 var(--sans);-webkit-text-size-adjust:100%}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--band);z-index:30}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 1.5rem}
+h1,h2,h3{font-family:var(--serif);margin:0;line-height:1.2}
+p{margin:0 0 1rem}
+
+/* nav */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--band);color:var(--band-ink);border-bottom:1px solid rgba(255,255,255,.08)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;height:3.5rem}
+.brand{font:600 1.1rem var(--serif);color:var(--band-ink);text-decoration:none;white-space:nowrap}
+.links{display:flex;gap:.25rem;overflow-x:auto;scrollbar-width:none}
+.links::-webkit-scrollbar{display:none}
+.links a{color:var(--band-muted);text-decoration:none;padding:.45rem .8rem;border-radius:6px;font-weight:500;font-size:.98rem;white-space:nowrap}
+.links a:hover{color:var(--band-ink)}
+.links a.on{color:var(--band-ink);background:rgba(255,255,255,.12)}
+.nav a:focus-visible{outline-color:var(--band-ink)}
+
+/* hero */
+.hero{background:var(--band);color:var(--band-ink);padding:4rem 0 3.5rem}
+h1{font-size:clamp(2.4rem,8vw,4rem);font-weight:600;letter-spacing:-.01em}
+.role{font-size:1.25rem;color:var(--band-muted);margin:.7rem 0 1.25rem;max-width:34ch}
+.lede{max-width:60ch;color:var(--band-muted);margin-bottom:1.75rem}
+.btns{display:flex;flex-wrap:wrap;gap:.75rem}
+.btn{display:inline-block;padding:.7rem 1.3rem;border-radius:6px;font-weight:600;text-decoration:none;border:1.5px solid var(--band-ink);color:var(--band-ink)}
+.btn.solid{background:var(--band-ink);color:var(--band)}
+.btn:hover{opacity:.88}
+.hero .btn:focus-visible{outline-color:var(--band-ink)}
+
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--line)}
+.stat{padding:1.5rem 1rem 1.5rem 0}
+.stat b{display:block;font:600 2rem/1.1 var(--serif);color:var(--accent)}
+.stat span{font-size:.92rem;color:var(--muted);line-height:1.35;display:block;margin-top:.2rem;max-width:20ch}
+
+section.blk{padding:3.5rem 0 0}
+section.blk:last-of-type{padding-bottom:4rem}
+h2{font-size:1.7rem;font-weight:600;margin-bottom:1.5rem}
+.head-row{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap;margin-bottom:1.5rem}
+.head-row h2{margin:0}
+.link-btn{background:none;border:0;color:var(--accent);font:500 1rem var(--sans);cursor:pointer;padding:.25rem .1rem;text-decoration:underline;text-underline-offset:3px}
+
+/* accordion */
+.job{border:1px solid var(--line);border-radius:8px;margin-bottom:1rem;background:var(--bg);overflow:hidden}
+.job-head{width:100%;display:flex;align-items:flex-start;gap:1rem;padding:1.25rem 1.35rem;background:none;border:0;text-align:left;color:inherit;font:inherit;cursor:pointer}
+.job-head:hover{background:var(--panel)}
+.jt{flex:1;min-width:0}
+.jt h3{font-size:1.2rem;font-weight:600}
+.jc{color:var(--muted);font-size:.98rem;margin:.2rem 0 .6rem}
+.jc b{font-weight:600;color:var(--ink)}
+.jsum{margin:0;font-size:1rem}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.8rem}
+.chip{background:var(--chip);color:var(--ink);font-size:.86rem;font-weight:500;padding:.2rem .65rem;border-radius:99px}
+.chev{flex:none;width:2rem;height:2rem;border-radius:50%;border:1.5px solid var(--line);display:grid;place-items:center;color:var(--accent);margin-top:.1rem;transition:transform .25s ease,background .2s}
+.chev svg{width:14px;height:14px}
+.job-head[aria-expanded="true"] .chev{transform:rotate(180deg);background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.more{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s ease}
+.more.open{grid-template-rows:1fr}
+.more>div{overflow:hidden}
+.more-in{border-top:1px solid var(--line);margin:0 1.35rem;padding:1.1rem 0 1.3rem}
+.more ul{margin:0;padding-left:1.15rem}
+.more li{margin-bottom:.5rem}
+.hl{margin:1rem 0 0;padding:.7rem 1rem;background:var(--panel);border-left:3px solid var(--accent);border-radius:0 4px 4px 0;font-size:1rem}
+.hl p{margin:0 0 .3rem}
+.hl p:last-child{margin:0}
+.hl strong{font-weight:600}
+@media (prefers-reduced-motion:reduce){.more,.chev{transition:none}}
+
+/* skills */
+.tabs{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.25rem}
+.tab{padding:.5rem 1rem;border-radius:99px;border:1.5px solid var(--line);background:none;color:var(--ink);font:500 .98rem var(--sans);cursor:pointer}
+.tab:hover{border-color:var(--accent)}
+.tab[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.skillset{display:flex;flex-wrap:wrap;gap:.6rem;min-height:3.5rem}
+.skillset[hidden]{display:none}
+.skillset span{background:var(--panel);border:1px solid var(--line);padding:.45rem .9rem;border-radius:6px;font-size:1rem}
+
+/* education + contact */
+.edu{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.card{background:var(--panel);border-radius:8px;padding:1.25rem 1.4rem}
+.card h3{font-size:1.1rem;font-weight:600;margin-bottom:.25rem}
+.card p{margin:0;color:var(--muted)}
+.contact{background:var(--band);color:var(--band-ink);border-radius:10px;padding:2.25rem 2rem}
+.contact h2{margin-bottom:.5rem}
+.contact p{color:var(--band-muted)}
+.contact .btn:focus-visible{outline-color:var(--band-ink)}
+footer{border-top:1px solid var(--line);padding:1.5rem 0 2rem;color:var(--muted);font-size:.95rem}
+
+@media (max-width:760px){
+  .stats{grid-template-columns:1fr 1fr}
+  .edu{grid-template-columns:1fr}
+  .hero{padding:2.75rem 0 2.5rem}
+  .brand{display:none}
+  .job-head{padding:1.1rem 1rem}
+  .more-in{margin:0 1rem}
+  .contact{padding:1.75rem 1.25rem}
+}
+@media print{.nav,.btns,.link-btn,.chev{display:none}.more{grid-template-rows:1fr!important}.hero,.contact{background:none;color:#000}.hero *,.contact *{color:#000!important}}
+</style>
+</head>
+<body>
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="#top">Aranya Mukherjee</a>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <h1>Aranya Mukherjee</h1>
+    <p class="role">Technical Lead, IT Production Support and Operations</p>
+    <p class="lede">10+ years keeping critical banking and financial systems running across Windows and Linux. Based in Chennai, India.</p>
+    <div class="btns">
+      <a class="btn solid" href="#experience">View experience</a>
+      <a class="btn" href="#contact">Get in touch</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="stats">
+    <div class="stat"><b>99.9%</b><span>system uptime across critical environments</span></div>
+    <div class="stat"><b>95%</b><span>efficiency gain through automation</span></div>
+    <div class="stat"><b>25%</b><span>reduction in issue resolution time</span></div>
+    <div class="stat"><b>30%</b><span>better transaction monitoring accuracy</span></div>
+  </div>
+
+  <section class="blk" id="about">
+    <h2>About</h2>
+    <p>Results-driven Technical Lead with 10+ years of experience in IT production support, application support and infrastructure operations within banking and financial services (TCS, Bank of America, Wipro).</p>
+    <p>Expertise in ITIL-based incident, problem and change management, and L2/L3 production support across Windows and Linux. Proven record of maintaining 99.9% system uptime, reducing MTTR and delivering zero-impact incident resolution. Strong in stakeholder management and SLA adherence, leading teams of up to 14 while driving automation, monitoring and continuous service improvement.</p>
+  </section>
+
+  <section class="blk" id="experience">
+    <div class="head-row">
+      <h2>Experience</h2>
+      <button class="link-btn" id="toggleAll" type="button">Expand all</button>
+    </div>
+
+    <article class="job">
+      <button class="job-head" type="button" aria-expanded="true" aria-controls="j1" id="h1">
+        <span class="jt">
+          <h3>Assistant Consultant, Infrastructure and Operations Lead</h3>
+          <p class="jc"><b>Tata Consultancy Services (TCS), Chennai</b> | Aug 2025 to present</p>
+          <p class="jsum">Leading 14 engineers on 24/7 production support, with SLA compliance and high availability.</p>
+          <span class="chips"><span class="chip">Team of 14</span><span class="chip">99.9% uptime</span><span class="chip">ServiceNow</span><span class="chip">Control-M</span></span>
+        </span>
+        <span class="chev" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l5 5 5-5"/></svg></span>
+      </button>
+      <div class="more open" id="j1" role="region" aria-labelledby="h1"><div><div class="more-in">
+        <ul>
+          <li>Lead a team of 14 engineers managing 24/7 production support, ensuring SLA compliance and high service availability.</li>
+          <li>Manage incident, problem and change management in ServiceNow and JIRA, reducing MTTR and improving service stability.</li>
+          <li>Architect and monitor batch workflows in Control-M and Momentum, ensuring uninterrupted execution of critical business jobs.</li>
+          <li>Administer Windows Server environments with proactive monitoring, ensuring 99.9% uptime.</li>
+          <li>Manage the PKI lifecycle with DigiCert, ensuring zero security-related outages.</li>
+          <li>Drive vendor integration and onboarding for third-party applications, ensuring compliance and seamless deployment.</li>
+        </ul>
+        <div class="hl"><p><strong>Key achievement:</strong> Led resolution of critical production incidents with zero business impact, earning client recognition.</p></div>
+      </div></div></div>
+    </article>
+
+    <article class="job">
+      <button class="job-head" type="button" aria-expanded="false" aria-controls="j2" id="h2">
+        <span class="jt">
+          <h3>Technical Lead, Merchant Application Services</h3>
+          <p class="jc"><b>BA Continuum (Bank of America), Gandhinagar</b> | Jun 2021 to Jul 2025</p>
+          <p class="jsum">Led an 8-member L2/L3 team supporting merchant onboarding on hybrid Linux and Windows infrastructure.</p>
+          <span class="chips"><span class="chip">Team of 8</span><span class="chip">95% efficiency gain</span><span class="chip">25% faster resolution</span><span class="chip">Python</span></span>
+        </span>
+        <span class="chev" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l5 5 5-5"/></svg></span>
+      </button>
+      <div class="more" id="j2" role="region" aria-labelledby="h2"><div><div class="more-in">
+        <ul>
+          <li>Managed hybrid infrastructure (Linux and Windows) supporting merchant onboarding applications.</li>
+          <li>Led an 8-member L2/L3 support team, improving incident response efficiency and knowledge sharing.</li>
+          <li>Used Venafi for enterprise certificate management, preventing outages and ensuring compliance.</li>
+          <li>Led resolution of P1/P2 incidents, maintaining 99.9% system uptime.</li>
+          <li>Automated monitoring and operational tasks with shell scripting and Python, improving efficiency by 95%.</li>
+          <li>Partnered with stakeholders to optimize workflows, reducing resolution time by 25%.</li>
+        </ul>
+        <div class="hl">
+          <p><strong>Key achievements:</strong></p>
+          <p>Improved transaction monitoring accuracy by 30%.</p>
+          <p>Received Gold, Silver and Bronze awards for performance excellence.</p>
+        </div>
+      </div></div></div>
+    </article>
+
+    <article class="job">
+      <button class="job-head" type="button" aria-expanded="false" aria-controls="j3" id="h3">
+        <span class="jt">
+          <h3>Senior Software Engineer</h3>
+          <p class="jc"><b>Wipro Technologies, India (multi-location)</b> | Sep 2015 to Jun 2021</p>
+          <p class="jsum">Delivered production support and automation for banking and enterprise clients, including POS data across 800+ locations.</p>
+          <span class="chips"><span class="chip">25% fewer batch failures</span><span class="chip">Tidal</span><span class="chip">Shell scripting</span></span>
+        </span>
+        <span class="chev" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l5 5 5-5"/></svg></span>
+      </button>
+      <div class="more" id="j3" role="region" aria-labelledby="h3"><div><div class="more-in">
+        <ul>
+          <li>Delivered production support and automation solutions for banking and enterprise clients.</li>
+          <li>Automated reconciliation and reporting processes, ensuring 100% data accuracy.</li>
+          <li>Developed shell scripts to improve operational efficiency and reduce manual intervention.</li>
+          <li>Managed high-volume batch processing with Tidal Scheduler across global environments.</li>
+          <li>Supported large-scale POS data processing systems for 800+ locations.</li>
+        </ul>
+        <div class="hl">
+          <p><strong>Key achievements:</strong></p>
+          <p>Reduced batch job failures by 25% through proactive monitoring and automation.</p>
+          <p>Recognized for fast and effective incident resolution.</p>
+        </div>
+      </div></div></div>
+    </article>
+  </section>
+
+  <section class="blk" id="skills">
+    <h2>Skills</h2>
+    <div class="tabs" role="tablist" aria-label="Skill categories" id="tabs"></div>
+    <div id="skillPanels"></div>
+  </section>
+
+  <section class="blk" id="education">
+    <h2>Education</h2>
+    <div class="edu">
+      <div class="card"><h3>M.Tech in Computer Science</h3><p>Birla Institute of Technology and Science (BITS), Pilani</p></div>
+      <div class="card"><h3>BCA in Computer Science</h3><p>Advanced Institute of Management and Science (AIMS)</p></div>
+    </div>
+  </section>
+
+  <section class="blk" id="contact">
+    <div class="contact">
+      <h2>Contact</h2>
+      <p>Open to conversations about technical lead and IT operations roles. Chennai, India.</p>
+      <div class="btns">
+        <a class="btn solid" href="mailto:aranya.mukherjee@gmail.com">Email me</a>
+        <a class="btn" href="https://www.linkedin.com/in/aranyamukherjee/">LinkedIn</a>
+        <a class="btn" href="tel:+919650328747">+91-9650328747</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer><div class="wrap">Aranya Mukherjee | aranya.mukherjee@gmail.com</div></footer>
+
+<script>
+(function(){
+  /* accordion */
+  var heads=[].slice.call(document.querySelectorAll('.job-head'));
+  function set(h,open){
+    h.setAttribute('aria-expanded',open);
+    document.getElementById(h.getAttribute('aria-controls')).classList.toggle('open',open);
+  }
+  function sync(){
+    var all=heads.every(function(h){return h.getAttribute('aria-expanded')==='true'});
+    document.getElementById('toggleAll').textContent=all?'Collapse all':'Expand all';
+  }
+  heads.forEach(function(h){h.addEventListener('click',function(){set(h,h.getAttribute('aria-expanded')!=='true');sync()})});
+  document.getElementById('toggleAll').addEventListener('click',function(){
+    var all=heads.every(function(h){return h.getAttribute('aria-expanded')==='true'});
+    heads.forEach(function(h){set(h,!all)});sync();
+  });
+  sync();
+
+  /* skills */
+  var skills=[
+    ['IT service management',['ITIL Framework','Incident Management','Problem Management','Change Management','L2/L3 Support','Root Cause Analysis','SLA Management','Escalation Handling']],
+    ['Infrastructure',['Application Support','Production Support','Windows Server','Linux (RHEL)','High Availability']],
+    ['Automation',['Python','Shell (Bash, Korn)','PowerShell']],
+    ['Workload automation',['Control-M','Autosys','Tidal','Momentum']],
+    ['Monitoring',['Splunk','AppDynamics','Dynatrace']],
+    ['Databases',['SQL Server','Oracle']],
+    ['Security and PKI',['DigiCert','Venafi','SSL/TLS Certificates']],
+    ['Tools and leadership',['ServiceNow','JIRA','Team Leadership','Stakeholder Management','Process Improvement','Service Delivery']]
+  ];
+  var tabs=document.getElementById('tabs'),panels=document.getElementById('skillPanels');
+  skills.forEach(function(s,i){
+    var b=document.createElement('button');
+    b.className='tab';b.type='button';b.setAttribute('role','tab');b.id='t'+i;b.setAttribute('aria-controls','p'+i);
+    b.textContent=s[0];tabs.appendChild(b);
+    var p=document.createElement('div');
+    p.className='skillset';p.id='p'+i;p.setAttribute('role','tabpanel');p.setAttribute('aria-labelledby','t'+i);
+    s[1].forEach(function(x){var e=document.createElement('span');e.textContent=x;p.appendChild(e)});
+    panels.appendChild(p);
+    b.addEventListener('click',function(){show(i)});
+  });
+  function show(n){
+    skills.forEach(function(_,i){
+      document.getElementById('t'+i).setAttribute('aria-selected',i===n);
+      document.getElementById('p'+i).hidden=i!==n;
+    });
+  }
+  show(0);
+
+  /* active nav link */
+  var links=[].slice.call(document.querySelectorAll('.links a'));
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if(e.isIntersecting){links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id)})}
+      });
+    },{rootMargin:'-30% 0px -60% 0px'});
+    links.forEach(function(a){var t=document.querySelector(a.getAttribute('href'));if(t)io.observe(t)});
+  }
+})();
+</script>
+</body>
+</html>
