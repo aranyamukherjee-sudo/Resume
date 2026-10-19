@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14213d">
+  <meta name="description" content="Aranya Mukherjee is an IT professional with 10+ years of experience across IT operations, production support, enterprise infrastructure, and operational reliability.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Aranya Mukherjee — IT Operations & Production Support">
+  <meta property="og:description" content="10+ years across IT operations, production support, enterprise infrastructure, and service reliability.">
+  <title>Aranya Mukherjee | Enterprise IT Operations & Production Support</title>
+  <meta name="color-scheme" content="dark">
+  <style>
+    /* Base styling for the editorial portfolio; Version 7 applies contrasting colour chapters below. */
+    :root{color-scheme:dark;--bg:#120c0e;--bg2:#211417;--panel:rgba(39,22,26,.86);--panel2:#302025;--text:#fff4e9;--muted:#c2aaa5;--line:rgba(224,170,135,.17);--accent:#d99163;--accent2:#f2c6a0;--max:1120px;--radius:20px;--shadow:0 24px 70px rgba(0,0,0,.22)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:radial-gradient(ellipse at 78% -8%,rgba(120,42,54,.28),transparent 38%),radial-gradient(ellipse at 5% 35%,rgba(194,111,76,.08),transparent 34%),linear-gradient(rgba(224,170,135,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(224,170,135,.035) 1px,transparent 1px),var(--bg);background-size:auto,auto,44px 44px,44px 44px,auto;color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}button,a{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}.wrap{width:min(var(--max),calc(100% - 44px));margin-inline:auto}.progress{position:fixed;z-index:1000;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2));box-shadow:0 0 18px rgba(217,145,99,.48)}
+    header{position:sticky;top:3px;z-index:100;border-bottom:1px solid var(--line);background:rgba(19,12,15,.86);backdrop-filter:blur(18px)}.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:11px;font-weight:750;letter-spacing:-.03em}.brand-mark{width:35px;height:35px;border-radius:11px;display:grid;place-items:center;color:#241519;background:linear-gradient(135deg,var(--accent),var(--accent2));font-size:.85rem;font-weight:900}.brand small{display:block;color:var(--muted);font-size:.66rem;font-weight:550;letter-spacing:.08em;text-transform:uppercase}.navlinks{display:flex;align-items:center;gap:25px;color:#ead8d0;font-size:.88rem}.navlinks a{transition:color .2s}.navlinks a:hover{color:var(--accent)}.nav-cta{padding:10px 15px;border:1px solid rgba(217,145,99,.44);border-radius:12px;color:var(--accent)!important}.menu-btn{display:none;border:1px solid var(--line);border-radius:10px;padding:8px 11px;background:var(--panel);color:var(--text);font:inherit}
+    .hero{position:relative;overflow:hidden;padding:92px 0 82px}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:55px}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--accent);font-size:.76rem;font-weight:750;letter-spacing:.14em;text-transform:uppercase}.eyebrow:before{content:"";width:25px;height:1px;background:var(--accent)}h1{margin:19px 0 22px;max-width:740px;font-size:clamp(2.7rem,6vw,5.25rem);line-height:1.03;letter-spacing:-.065em;font-weight:780}h1 .shine{background:linear-gradient(100deg,#fff8ef 8%,#e9b48f 62%,#f2c6a0);-webkit-background-clip:text;background-clip:text;color:transparent}.hero-copy{max-width:620px;color:#d7c2bc;font-size:1.08rem;line-height:1.85}.hero-copy strong{color:#fff4e9;font-weight:650}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:29px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:47px;padding:12px 18px;border-radius:12px;border:1px solid var(--line);font-weight:700;font-size:.91rem;transition:transform .22s,border-color .22s,background .22s,box-shadow .22s}.btn:hover{transform:translateY(-2px);border-color:rgba(217,145,99,.5)}.btn-primary{background:var(--accent);color:#241519;border-color:var(--accent);box-shadow:0 8px 25px rgba(217,145,99,.12)}.btn-primary:hover{background:#e8aa7c;box-shadow:0 12px 32px rgba(217,145,99,.2)}.btn-secondary{background:rgba(255,255,255,.025);color:var(--text)}.hero-note{display:flex;align-items:center;gap:9px;margin-top:26px;color:var(--muted);font-size:.82rem}.status-dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 5px rgba(217,145,99,.1)}
+    .visual{min-height:370px;position:relative;display:grid;place-items:center}.orb{position:absolute;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(153,67,72,.17),rgba(217,145,99,.055) 42%,transparent 70%);filter:blur(2px)}.system-card{position:relative;width:min(100%,400px);padding:24px;border:1px solid rgba(224,170,135,.24);border-radius:24px;background:linear-gradient(145deg,rgba(53,29,33,.92),rgba(28,16,20,.91));box-shadow:var(--shadow);transform:rotate(1deg)}.card-top{display:flex;align-items:center;justify-content:space-between;color:#d5bdb4;font-size:.76rem}.window-dots{display:flex;gap:5px}.window-dots i{width:6px;height:6px;border-radius:50%;background:#72504b}.window-dots i:first-child{background:var(--accent)}.system-card h3{font-size:1.05rem;margin:22px 0 4px;letter-spacing:-.02em}.system-card p{margin:0;color:var(--muted);font-size:.8rem}.nodes{position:relative;margin-top:25px;display:grid;grid-template-columns:1fr 1fr;gap:12px}.node{position:relative;min-height:77px;padding:13px;border-radius:13px;border:1px solid rgba(224,170,135,.17);background:rgba(255,255,255,.025)}.node-icon{display:grid;place-items:center;width:27px;height:27px;border-radius:8px;color:var(--accent);background:rgba(217,145,99,.1);font-size:.85rem}.node strong{display:block;margin-top:7px;font-size:.77rem}.node span{display:block;color:var(--muted);font-size:.68rem}.system-foot{display:flex;justify-content:space-between;gap:10px;margin-top:17px;padding-top:15px;border-top:1px solid var(--line);color:#c5aaa1;font-size:.72rem}.pulse{animation:pulse 4s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.55;transform:scale(.98)}50%{opacity:1;transform:scale(1.02)}}.float-tag{position:absolute;right:-8px;top:36px;padding:10px 13px;border:1px solid rgba(217,145,99,.26);border-radius:12px;background:#28171c;color:var(--accent);font-size:.75rem;font-weight:700;box-shadow:var(--shadow)}.float-tag.bottom{right:auto;left:-15px;top:auto;bottom:32px;color:#f2c6a0;border-color:rgba(242,198,160,.26)}
+    .quick-facts{border-block:1px solid var(--line);background:rgba(255,255,255,.018)}.facts{display:grid;grid-template-columns:repeat(4,1fr);padding:23px 0}.fact{padding:4px 22px;border-right:1px solid var(--line)}.fact:first-child{padding-left:0}.fact:last-child{border:0}.fact strong{display:block;font-size:.94rem;letter-spacing:-.01em}.fact span{display:block;margin-top:4px;color:var(--muted);font-size:.78rem}
+    section.content-section{padding:88px 0}.section-head{max-width:680px;margin-bottom:35px}.kicker{color:var(--accent);font-size:.75rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase}.section-title{margin:10px 0 12px;font-size:clamp(2rem,4vw,3.05rem);line-height:1.12;letter-spacing:-.05em}.section-desc{margin:0;color:var(--muted);font-size:1rem}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.panel{border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(145deg,rgba(44,25,29,.82),rgba(34,19,23,.76));padding:27px}.panel h3{margin:0 0 12px;font-size:1.08rem}.panel p{margin:0;color:#d7c2bc}.principles{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}.principle{padding:14px;border:1px solid var(--line);border-radius:13px;background:rgba(255,255,255,.02)}.principle b{display:block;font-size:.87rem}.principle span{display:block;margin-top:4px;color:var(--muted);font-size:.77rem}
+    .skills-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.skill-card{padding:21px;border:1px solid var(--line);border-radius:17px;background:rgba(39,22,26,.68);transition:transform .2s,border-color .2s,background .2s}.skill-card:hover{transform:translateY(-4px);border-color:rgba(217,145,99,.34);background:rgba(48,27,31,.85)}.skill-symbol{width:37px;height:37px;display:grid;place-items:center;border-radius:11px;background:rgba(217,145,99,.09);color:var(--accent);font-weight:800}.skill-card h3{margin:16px 0 8px;font-size:.98rem}.skill-card p{margin:0;color:var(--muted);font-size:.83rem}.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}.tag{padding:5px 8px;border:1px solid rgba(224,170,135,.15);border-radius:8px;color:#ead8d0;background:rgba(255,255,255,.025);font-size:.71rem}
+    .timeline{position:relative;margin-top:35px;padding-left:28px}.timeline:before{content:"";position:absolute;left:6px;top:8px;bottom:8px;width:2px;background:var(--line)}.timeline-fill{position:absolute;left:6px;top:8px;width:2px;height:0;background:linear-gradient(var(--accent),var(--accent2));transform-origin:top;transition:height .15s linear}.role{position:relative;margin:0 0 18px;padding:24px;border:1px solid var(--line);border-radius:17px;background:rgba(39,22,26,.66)}.role:before{content:"";position:absolute;left:-29px;top:29px;width:10px;height:10px;border-radius:50%;background:var(--bg);border:2px solid var(--accent);box-shadow:0 0 0 5px rgba(217,145,99,.07)}.role-head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}.role h3{margin:0;font-size:1.04rem}.role .company{margin-top:4px;color:var(--accent);font-size:.86rem;font-weight:700}.role .date{white-space:nowrap;color:var(--muted);font-size:.76rem}.role p{margin:13px 0 0;color:#d7c2bc;font-size:.9rem}.role details{margin-top:14px;border-top:1px solid var(--line);padding-top:12px}.role summary{cursor:pointer;color:#f4e3d7;font-size:.85rem;font-weight:650}.role details p{margin-top:9px}
+    .achievement-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.achievement{padding:24px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(150deg,rgba(48,27,31,.75),rgba(10,24,36,.6))}.achievement .index{color:var(--accent);font-size:.76rem;font-weight:800;letter-spacing:.12em}.achievement h3{margin:13px 0 8px;font-size:1rem}.achievement p{margin:0;color:var(--muted);font-size:.85rem}.education-card{display:flex;align-items:flex-start;gap:18px;padding:24px;border:1px solid var(--line);border-radius:18px;background:rgba(39,22,26,.66)}.education-icon{flex:0 0 45px;width:45px;height:45px;display:grid;place-items:center;border-radius:13px;background:rgba(217,145,99,.1);color:var(--accent);font-size:1.1rem}.education-card h3{margin:0 0 5px;font-size:1rem}.education-card p{margin:0;color:var(--muted);font-size:.88rem}
+    .contact-box{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:space-between;gap:30px;padding:36px;border:1px solid rgba(217,145,99,.26);border-radius:24px;background:radial-gradient(ellipse at 100% 0%,rgba(217,145,99,.1),transparent 45%),linear-gradient(140deg,rgba(48,27,31,.92),rgba(32,18,22,.92))}.contact-box h2{margin:8px 0 10px;font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.1;letter-spacing:-.05em}.contact-box p{max-width:560px;margin:0;color:var(--muted)}.contact-actions{display:flex;flex-wrap:wrap;gap:10px;flex-shrink:0}.contact-actions .btn{white-space:nowrap}.contact-placeholder{margin-top:14px;color:#78909d;font-size:.75rem}
+    footer{padding:25px 0 32px;border-top:1px solid var(--line);color:var(--muted);font-size:.79rem}.footer-inner{display:flex;justify-content:space-between;gap:18px;align-items:center}.footer-links{display:flex;gap:17px}.footer-links a:hover{color:var(--accent)}.reveal{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s ease}.reveal.visible{opacity:1;transform:translateY(0)}.delay-1{transition-delay:.08s}.delay-2{transition-delay:.16s}.delay-3{transition-delay:.24s}
+    @media(max-width:900px){.hero-grid{grid-template-columns:1fr .82fr;gap:25px}.visual{min-height:320px}.system-card{padding:18px}.float-tag{right:-3px}.float-tag.bottom{left:-5px}.skills-grid{grid-template-columns:repeat(2,1fr)}.facts{grid-template-columns:repeat(2,1fr);row-gap:18px}.fact:nth-child(2){border:0}.fact:nth-child(3){padding-left:0}.achievement-grid{grid-template-columns:1fr 1fr}.contact-box{align-items:flex-start;flex-direction:column}}
+    @media(max-width:680px){.wrap{width:min(var(--max),calc(100% - 32px))}.nav{min-height:64px}.menu-btn{display:inline-flex}.navlinks{display:none;position:absolute;left:16px;right:16px;top:calc(100% + 8px);padding:15px;border:1px solid var(--line);border-radius:15px;background:#28171c;box-shadow:var(--shadow);flex-direction:column;align-items:stretch;gap:0}.navlinks.open{display:flex}.navlinks a{padding:11px 9px}.nav-cta{text-align:center;margin-top:5px}.hero{padding:64px 0 54px}.hero-grid{grid-template-columns:1fr;gap:20px}.hero-copy{font-size:1rem}.visual{min-height:310px;margin:0 8px}.system-card{max-width:390px}.float-tag{right:0;top:15px}.float-tag.bottom{left:0;bottom:14px}.facts{padding:20px 0}.fact{padding:3px 12px}.fact strong{font-size:.85rem}.fact span{font-size:.73rem}section.content-section{padding:65px 0}.about-grid{grid-template-columns:1fr}.principles{grid-template-columns:1fr 1fr}.skills-grid{gap:10px}.skill-card{padding:16px}.skill-card h3{font-size:.91rem}.skill-card p{font-size:.79rem}.achievement-grid{grid-template-columns:1fr}.role{padding:19px}.role-head{flex-direction:column;gap:6px}.role .date{white-space:normal}.contact-box{padding:25px}.contact-actions{width:100%}.contact-actions .btn{flex:1}.footer-inner{align-items:flex-start;flex-direction:column}.timeline{padding-left:23px}.timeline:before,.timeline-fill{left:4px}.role:before{left:-25px}}
+    @media(max-width:390px){h1{font-size:2.55rem}.skills-grid{grid-template-columns:1fr}.principles{grid-template-columns:1fr}.actions .btn{width:100%}.nodes{gap:8px}.node{padding:10px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}.pulse{animation:none}}
+
+    /* Signature design pass: editorial hierarchy, architectural grid, and quieter motion. */
+    body{background-color:#120c0e;background-image:linear-gradient(rgba(201,145,115,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(201,145,115,.035) 1px,transparent 1px),radial-gradient(ellipse at 80% 8%,rgba(177,105,79,.18),transparent 33%);background-size:48px 48px,48px 48px,auto;background-attachment:fixed}
+    .hero{padding:108px 0 88px;isolation:isolate}.hero:before{content:"";position:absolute;z-index:-1;inset:0;background:linear-gradient(90deg,rgba(22,13,16,.96) 0%,rgba(22,13,16,.76) 56%,rgba(22,13,16,.35) 100%);pointer-events:none}
+    .hero-grid{grid-template-columns:1.08fr .92fr;gap:38px}.eyebrow{padding:8px 12px;border:1px solid rgba(217,145,99,.23);border-radius:999px;background:rgba(217,145,99,.045);letter-spacing:.11em;font-size:.69rem}.eyebrow:before{width:7px;height:7px;border-radius:50%;box-shadow:0 0 0 4px rgba(217,145,99,.1)}
+    h1{font-size:clamp(3.15rem,6.3vw,5.8rem);line-height:.99;letter-spacing:-.075em;margin:24px 0 25px;max-width:720px}h1 .shine{background:linear-gradient(110deg,#fff4e9 0%,#e9b48f 47%,#f2c6a0 92%);-webkit-background-clip:text;background-clip:text}
+    .hero-copy{max-width:590px;font-size:1.02rem;line-height:1.9;color:#d7c2bc}.hero-copy strong{color:#fff}.hero-note{border-left:2px solid var(--accent);padding-left:12px;margin-top:27px}
+    .visual{min-height:420px}.system-card{width:min(100%,430px);padding:26px;border-radius:8px 24px 24px 24px;border-color:rgba(217,145,99,.28);background:linear-gradient(145deg,rgba(40,22,26,.97),rgba(27,15,18,.96));transform:none;box-shadow:0 28px 90px rgba(0,0,0,.32)}.system-card:before{content:"";position:absolute;top:-1px;left:24px;right:24px;height:2px;background:linear-gradient(90deg,var(--accent),transparent);opacity:.8}.card-top{font-size:.67rem;letter-spacing:.13em}.system-card h3{font-size:1.22rem;margin-top:25px}.system-card>p{font-size:.82rem}.node{background:rgba(255,255,255,.018);border-radius:8px;transition:border-color .25s,transform .25s}.node:hover{border-color:rgba(217,145,99,.36);transform:translateY(-2px)}.node-icon{border-radius:7px}.float-tag{right:-4px;top:22px;letter-spacing:.02em}.float-tag.bottom{left:-5px;bottom:15px}.orb{width:360px;height:360px;background:radial-gradient(circle,rgba(153,67,72,.16),rgba(217,145,99,.065) 43%,transparent 70%)}
+    .quick-facts{background:rgba(17,9,12,.76);border-color:rgba(217,145,99,.16)}.facts{padding:26px 0}.fact{padding-inline:24px}.fact strong{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:#f4e3d7}.fact span{font-size:.75rem;line-height:1.5}
+    section.content-section{padding:100px 0;position:relative}section.content-section:nth-of-type(even){background:linear-gradient(180deg,rgba(255,255,255,.012),transparent 80%)}.section-head{position:relative;padding-left:21px;border-left:2px solid rgba(217,145,99,.62);margin-bottom:40px}.kicker{font-size:.68rem;letter-spacing:.18em}.section-title{font-size:clamp(2.2rem,4.3vw,3.4rem);max-width:800px}.section-desc{max-width:660px;line-height:1.8}
+    .panel,.skill-card,.role,.achievement,.education-card{box-shadow:0 14px 42px rgba(0,0,0,.10)}.panel{border-radius:8px 20px 20px 20px;padding:30px}.panel h3,.skill-card h3,.achievement h3{letter-spacing:-.025em}.principle{border-radius:8px;background:rgba(255,255,255,.015)}.skill-card{border-radius:8px 17px 17px 17px;position:relative;overflow:hidden}.skill-card:before{content:"";position:absolute;top:0;left:0;width:38px;height:2px;background:var(--accent);opacity:.65}.skill-symbol{font-size:.68rem;letter-spacing:.04em;border:1px solid rgba(217,145,99,.14)}
+    .timeline{padding-left:34px}.timeline:before,.timeline-fill{left:7px}.role{border-radius:8px 18px 18px 18px;padding:27px;background:linear-gradient(110deg,rgba(37,21,25,.84),rgba(30,17,21,.7));transition:transform .25s,border-color .25s}.role:hover{transform:translateX(3px);border-color:rgba(217,145,99,.28)}.role:before{left:-35px;width:12px;height:12px}.role h3{font-size:1.12rem}.role .date{padding:5px 9px;border:1px solid var(--line);border-radius:7px;font-size:.7rem}.achievement{border-radius:8px 18px 18px 18px;position:relative;overflow:hidden}.achievement:after{content:"";position:absolute;right:-24px;bottom:-50px;width:120px;height:120px;border:1px solid rgba(217,145,99,.12);border-radius:50%;box-shadow:0 0 0 15px rgba(217,145,99,.025),0 0 0 30px rgba(217,145,99,.018)}.achievement .index{letter-spacing:.16em}.education-card{border-radius:8px 20px 20px 20px}.contact-box{border-radius:8px 26px 26px 26px;border-color:rgba(217,145,99,.28);background:radial-gradient(ellipse at 100% 0%,rgba(217,145,99,.1),transparent 45%),linear-gradient(130deg,rgba(48,27,31,.92),rgba(27,15,18,.96))}.contact-box h2{font-size:clamp(2.3rem,5vw,3.6rem);letter-spacing:-.065em;line-height:1.04}.contact-placeholder{border-left:2px solid rgba(217,145,99,.6);padding-left:12px}
+    .impact-note{display:flex;flex-direction:column;gap:5px;margin-top:18px;padding:18px 20px;border-left:2px solid var(--accent);background:rgba(217,145,99,.045);color:var(--muted);font-size:.87rem}.impact-note strong{color:var(--text);font-size:.9rem}
+    footer{background:rgba(14,8,10,.76)}.brand-mark{border-radius:9px 9px 9px 3px}.btn{border-radius:8px}.btn-primary{box-shadow:0 10px 32px rgba(217,145,99,.14)}
+    @media(max-width:850px){.hero{padding:78px 0 65px}.hero-grid{grid-template-columns:1fr;gap:24px}.visual{min-height:380px;max-width:540px;width:100%;margin-inline:auto}.hero:before{background:linear-gradient(180deg,rgba(22,13,16,.93),rgba(22,13,16,.6))}.facts{grid-template-columns:repeat(2,1fr);row-gap:18px}.fact:nth-child(2){border:0}.fact:nth-child(3){padding-left:0}}
+    @media(max-width:520px){body{background-size:34px 34px,34px 34px,auto}.hero{padding-top:62px}.hero-grid{gap:12px}h1{font-size:clamp(2.85rem,13vw,4rem)}.visual{min-height:350px}.system-card{padding:20px}.float-tag{right:0;top:2px}.float-tag.bottom{left:0;bottom:0}.facts{padding:20px 0}.fact{padding-inline:12px}.fact:first-child,.fact:nth-child(3){padding-left:0}.fact strong{font-size:.7rem}.fact span{font-size:.7rem}.section-head{padding-left:15px}.content-section{padding:74px 0!important}.role-head{flex-direction:column;gap:8px}.role .date{white-space:normal}.panel{padding:23px}}
+    @media(prefers-reduced-motion:reduce){body{background-attachment:scroll}.role:hover,.node:hover{transform:none}}
+
+
+    /* Version 8: strict dual-tone design — plum hero, ivory profile, lavender skills,
+       deep plum experience, citrus impact, and a warm coral contact finish. */
+    :root{--plum:#24152b;--ivory:#fff7e9;--coral:#ff6b5e;--lime:#d7f36a;--lavender:#b9a7d9;--ink:#211f27}
+    body{background:var(--plum);color:#fff7e9}
+    header{background:rgba(36,21,43,.88);border-color:rgba(255,247,233,.14)}
+    .brand-mark{background:var(--lime);color:var(--ink)}
+    .navlinks a:hover,.nav-cta{color:var(--lime)!important}.nav-cta{border-color:rgba(215,243,106,.5)}
+    .progress{background:linear-gradient(90deg,var(--coral),var(--lime),var(--lavender));box-shadow:none}
+    .hero{background:radial-gradient(ellipse at 84% 25%,rgba(185,167,217,.2),transparent 33%),radial-gradient(ellipse at 10% 85%,rgba(255,107,94,.13),transparent 36%),#24152b}
+    .eyebrow,.kicker{color:var(--coral)}.eyebrow:before{background:var(--coral)}
+    h1 .shine{background:linear-gradient(100deg,#fff7e9 4%,#ff8c7d 48%,#d7f36a 94%);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .hero-copy{color:#e0d6e5}.hero-copy strong{color:var(--ivory)}
+    .btn-primary{background:var(--coral);border-color:var(--coral);color:#24152b;box-shadow:0 10px 30px rgba(255,107,94,.2)}
+    .btn-primary:hover{background:#ff9388;box-shadow:0 12px 34px rgba(255,107,94,.25)}
+    .btn-secondary{border-color:rgba(255,247,233,.24);background:rgba(255,247,233,.04)}
+    .status-dot{background:var(--lime);box-shadow:0 0 0 5px rgba(215,243,106,.12)}
+    .system-card{border-color:rgba(185,167,217,.38);background:linear-gradient(145deg,rgba(66,43,77,.96),rgba(36,21,43,.97));transform:rotate(-1.2deg)}
+    .orb{background:radial-gradient(circle,rgba(185,167,217,.25),rgba(255,107,94,.09) 48%,transparent 72%)}
+    .float-tag{background:var(--lime);border-color:var(--lime);color:var(--ink)}
+    .float-tag.bottom{background:var(--coral);border-color:var(--coral);color:var(--ink)}
+    .node-icon{background:rgba(185,167,217,.15);color:var(--lavender)}
+    .quick-facts{background:var(--ink);border-color:rgba(255,247,233,.1)}.quick-facts .fact strong{color:var(--lime)}.quick-facts .fact span{color:#d4cbd9}
+    /* Chapter 1 — light editorial profile */
+    #about{background:var(--ivory);color:var(--ink)}
+    #about .section-head{border-color:var(--coral)}#about .kicker{color:#b33d37}
+    #about .section-title{color:var(--ink)}#about .section-desc{color:#625968}
+    #about .panel{background:#fffdf8;border-color:rgba(36,21,43,.13);box-shadow:0 18px 45px rgba(36,21,43,.07)}
+    #about .panel p{color:#625968}#about .principle{background:#f6edf7;border-color:rgba(36,21,43,.1)}
+    #about .principle b{color:var(--ink)}#about .principle span{color:#65586d}
+    #about .tag{background:#f4edf8;border-color:rgba(36,21,43,.12);color:#4b3a57}
+    /* Chapter 2 — lavender capability canvas */
+    #skills{background:#e9e1f5;color:var(--ink)}
+    #skills .section-head{border-color:#6e4b92}#skills .kicker{color:#67428b}
+    #skills .section-title{color:var(--ink)}#skills .section-desc{color:#5e5369}
+    #skills .skill-card{background:#f8f4fc;border-color:rgba(55,34,76,.15);box-shadow:0 16px 35px rgba(54,35,76,.08)}
+    #skills .skill-card:before{background:var(--coral)}#skills .skill-symbol{background:#e3d7f2;border-color:#d4c4e8;color:#67428b}
+    #skills .skill-card h3{color:var(--ink)}#skills .skill-card p{color:#62576b}
+    #skills .tag{background:#eee5f8;border-color:#d8c8e9;color:#49395a}
+    /* Chapter 3 — restrained, high-contrast career timeline */
+    #experience{background:#2d1c36;color:var(--ivory)}
+    #experience .section-head{border-color:var(--lavender)}#experience .kicker{color:var(--lavender)}
+    #experience .section-title{color:var(--ivory)}#experience .section-desc{color:#d3c5dc}
+    #experience .timeline:before{background:rgba(185,167,217,.27)}#experience .timeline-fill{background:linear-gradient(var(--lavender),var(--coral),var(--lime))}
+    #experience .role{background:linear-gradient(110deg,rgba(74,48,87,.82),rgba(43,27,52,.8));border-color:rgba(185,167,217,.23)}
+    #experience .role:before{background:#2d1c36;border-color:var(--lime);box-shadow:0 0 0 5px rgba(215,243,106,.09)}
+    #experience .role .company{color:var(--lavender)}#experience .role p{color:#d9cedf}
+    #experience .role .date{border-color:rgba(185,167,217,.28);color:var(--lime)}
+    /* Chapter 4 — citrus impact cards with coral signal */
+    #impact{background:var(--lime);color:var(--ink);padding-top:75px!important;padding-bottom:100px!important}
+    #impact .section-head{border-color:var(--coral)}#impact .kicker{color:#7b332f}
+    #impact .section-title{color:var(--ink)}#impact .section-desc{color:#514c3b}
+    #impact .achievement-grid{gap:18px}
+    #impact .achievement{background:var(--ivory);border:1px solid rgba(33,31,39,.12);box-shadow:0 18px 42px rgba(33,31,39,.1)}
+    #impact .achievement:before{content:"";position:absolute;top:0;left:0;width:100%;height:5px;background:var(--coral)}
+    #impact .achievement .index{color:#9b443c}#impact .achievement h3{color:var(--ink)}#impact .achievement p{color:#5d5660}
+    #impact .achievement:after{border-color:rgba(255,107,94,.22);box-shadow:0 0 0 15px rgba(255,107,94,.05),0 0 0 30px rgba(255,107,94,.03)}
+    #impact .impact-note{background:rgba(255,247,233,.58);border-color:#b7443b;color:#514c3b}
+    #impact .impact-note strong{color:var(--ink)}
+    /* Chapter 5 — warm, welcoming close */
+    #contact{background:#f3d8d1;color:var(--ink)}
+    #contact .contact-box{background:linear-gradient(125deg,#fff7e9 0%,#f8e8df 58%,#e9dff3 100%);border-color:rgba(36,21,43,.16);box-shadow:0 22px 55px rgba(36,21,43,.1)}
+    #contact .kicker{color:#a43e37}#contact .contact-box h2{color:var(--ink)}#contact .contact-box p{color:#5f5362}
+    #contact .contact-placeholder{border-color:var(--coral);color:#65576a}
+    #contact .btn-secondary{color:var(--ink);border-color:rgba(36,21,43,.2);background:rgba(255,255,255,.45)}
+    footer{background:#211327;color:#e9dfee}footer .footer-links a:hover{color:var(--lime)}
+    @media(max-width:850px){#skills .skills-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:520px){#about .panel,#skills .skill-card,#experience .role,#impact .achievement{box-shadow:0 9px 24px rgba(33,31,39,.07)}#impact{padding-top:58px!important;padding-bottom:70px!important}}
+    @media(prefers-reduced-motion:reduce){.system-card,.skill-card,.btn,.role{transition:none!important;animation:none!important}}
+
+
+    /* Version 8 — recruiter-focused hierarchy and a distinctive incident-response walkthrough. */
+    #approach{background:#fff7e9;color:#211f27}
+    #approach .section-head{border-color:#ff6b5e}
+    #approach .kicker{color:#a63c35}#approach .section-title{color:#211f27}#approach .section-desc{color:#625968}
+    .approach-layout{display:grid;grid-template-columns:.78fr 1.22fr;gap:22px;align-items:stretch}
+    .approach-steps{display:grid;gap:10px;align-content:start}
+    .approach-step{display:grid;grid-template-columns:40px 1fr;grid-template-rows:auto auto;gap:2px 12px;text-align:left;align-items:center;width:100%;padding:17px 16px;border:1px solid rgba(36,21,43,.14);border-radius:12px;background:#fffdf8;color:#211f27;cursor:pointer;font:inherit;transition:transform .2s,border-color .2s,background .2s}
+    .approach-step>span{grid-row:1 / span 2;display:grid;place-items:center;width:36px;height:36px;border-radius:10px;background:#eee5f8;color:#67428b;font-size:.76rem;font-weight:850}
+    .approach-step strong{font-size:.91rem}.approach-step small{color:#746879;font-size:.76rem}
+    .approach-step:hover{transform:translateX(3px);border-color:#b9a7d9}.approach-step.active{background:#24152b;color:#fff7e9;border-color:#24152b;box-shadow:0 12px 30px rgba(36,21,43,.12)}
+    .approach-step.active>span{background:#d7f36a;color:#211f27}.approach-step.active small{color:#d8cce0}
+    .approach-detail{position:relative;overflow:hidden;display:flex;flex-direction:column;min-height:355px;padding:30px;border-radius:12px 28px 28px 28px;background:radial-gradient(ellipse at 100% 0%,rgba(185,167,217,.23),transparent 40%),#2d1c36;color:#fff7e9}
+    .approach-detail:after{content:"";position:absolute;right:-72px;bottom:-95px;width:240px;height:240px;border:1px solid rgba(215,243,106,.2);border-radius:50%;box-shadow:0 0 0 22px rgba(215,243,106,.025),0 0 0 44px rgba(215,243,106,.02);pointer-events:none}
+    .detail-label{display:flex;align-items:center;gap:9px;color:#d7f36a;font-size:.68rem;font-weight:800;letter-spacing:.15em}
+    .detail-dot{width:8px;height:8px;border-radius:50%;background:#ff6b5e;box-shadow:0 0 0 5px rgba(255,107,94,.12)}
+    .approach-detail h3{max-width:510px;margin:25px 0 12px;font-size:clamp(1.45rem,3vw,2.15rem);line-height:1.15;letter-spacing:-.045em}
+    .approach-detail p{max-width:520px;margin:0;color:#d9cedf;line-height:1.8}
+    .detail-output{position:relative;z-index:1;display:flex;flex-direction:column;gap:6px;margin-top:auto;padding-top:28px}
+    .detail-output span{color:#b9a7d9;font-size:.66rem;font-weight:850;letter-spacing:.15em}.detail-output strong{font-size:.95rem;max-width:480px}
+    .approach-progress{height:3px;margin-top:22px;background:rgba(255,247,233,.13);border-radius:10px;overflow:hidden}.approach-progress span{display:block;width:25%;height:100%;background:linear-gradient(90deg,#ff6b5e,#d7f36a);transition:width .25s ease}
+    .approach-note{margin:15px 0 0;color:#706579;font-size:.78rem;line-height:1.7}
+    #experience{background:#f3d8d1;color:#211f27}
+    #experience .section-head{border-color:#ff6b5e}#experience .kicker{color:#a43e37}#experience .section-title{color:#211f27}#experience .section-desc{color:#625968}
+    .company-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+    .company-tile{position:relative;overflow:hidden;min-height:235px;padding:23px;border:1px solid rgba(36,21,43,.12);border-radius:10px 22px 22px 22px;box-shadow:0 18px 42px rgba(36,21,43,.08)}
+    .company-tile-light{background:#fff7e9}.company-tile-dark{background:#24152b;color:#fff7e9}.company-tile-lilac{background:#e9e1f5}
+    .company-index{font-size:.64rem;font-weight:850;letter-spacing:.14em;opacity:.7}.company-tile h3{position:relative;z-index:1;margin:35px 0 5px;font-size:1.25rem;line-height:1.15;letter-spacing:-.04em}.company-tile p{position:relative;z-index:1;margin:0;font-size:.82rem;opacity:.72}
+    .company-mark{position:absolute;right:15px;bottom:-20px;font-size:5.4rem;font-weight:950;letter-spacing:-.1em;opacity:.07;line-height:1}
+    .experience-bridge{display:flex;gap:15px;align-items:center;margin-top:18px;padding:19px 21px;border-left:3px solid #67428b;background:rgba(255,247,233,.65)}
+    .bridge-symbol{display:grid;place-items:center;flex:0 0 38px;width:38px;height:38px;border-radius:11px;background:#d7f36a;color:#211f27;font-size:1.15rem;font-weight:900}.experience-bridge p{margin:0;color:#514657;font-size:.9rem}
+    #impact .achievement{transition:transform .2s,box-shadow .2s}#impact .achievement:hover{transform:translateY(-4px);box-shadow:0 22px 46px rgba(33,31,39,.14)}
+    #contact .contact-box{border-radius:10px 30px 30px 30px}
+    @media(max-width:760px){.approach-layout{grid-template-columns:1fr}.approach-steps{grid-template-columns:1fr 1fr}.approach-detail{min-height:310px}.company-grid{grid-template-columns:1fr}.company-tile{min-height:180px}.company-tile h3{margin-top:24px}}
+    @media(max-width:520px){.approach-steps{grid-template-columns:1fr 1fr;gap:8px}.approach-step{grid-template-columns:32px 1fr;gap:3px 8px;padding:12px 10px}.approach-step>span{width:29px;height:29px;font-size:.68rem}.approach-step strong{font-size:.8rem}.approach-step small{font-size:.68rem}.approach-detail{padding:23px;min-height:320px}.company-tile{min-height:155px}.experience-bridge{align-items:flex-start;padding:16px}}
+    @media(prefers-reduced-motion:reduce){.approach-step,.approach-progress span,#impact .achievement{transition:none!important}.approach-step:hover,#impact .achievement:hover{transform:none}}
+
+  
+    /* Version 8 — strict dual-tone design: midnight navy + warm ivory. */
+    :root{--navy:#14213d;--ivory:#f8f5ef;--bg:var(--navy);--bg2:var(--navy);--panel:#1d2c49;--panel2:#1d2c49;--text:var(--ivory);--muted:#d8dce5;--line:rgba(248,245,239,.22);--accent:var(--ivory);--accent2:var(--ivory);color-scheme:dark}
+    body{background:var(--navy)!important;color:var(--ivory)}
+    header{background:rgba(20,33,61,.96)!important;border-color:rgba(248,245,239,.22)!important}
+    .brand-mark,.float-tag,.float-tag.bottom{background:var(--ivory)!important;color:var(--navy)!important;border-color:var(--ivory)!important}
+    .navlinks a:hover,.nav-cta,.eyebrow,.kicker{color:var(--ivory)!important}
+    .nav-cta,.btn-secondary{border-color:rgba(248,245,239,.48)!important}
+    .progress{background:var(--ivory)!important;box-shadow:none!important}
+    .hero{background:var(--navy)!important}
+    h1 .shine{background:none!important;color:var(--ivory)!important;-webkit-text-fill-color:var(--ivory)!important}
+    .hero-copy,.hero-copy strong,.hero-note,.card-top,.system-card p,.node span,.system-foot{color:#e2e5ec!important}
+    .btn-primary{background:var(--ivory)!important;color:var(--navy)!important;border-color:var(--ivory)!important;box-shadow:none!important}
+    .btn-primary:hover{background:#e8e4dc!important}
+    .btn-secondary{background:transparent!important;color:var(--ivory)!important}
+    .status-dot,.window-dots i:first-child{background:var(--ivory)!important;box-shadow:none!important}
+    .system-card,.node,.skill-card,.role,.achievement,.panel,.principle,.education-card,.contact-box,.approach-detail,.approach-step,.company-tile,.detail-output{background:var(--navy)!important;color:var(--ivory)!important;border-color:rgba(248,245,239,.28)!important;box-shadow:none!important}
+    .system-card{border-radius:18px!important;transform:none!important}
+    .orb{background:radial-gradient(circle,rgba(248,245,239,.12),transparent 70%)!important}
+    .node-icon,.skill-symbol,.tag,.role .date{background:var(--ivory)!important;color:var(--navy)!important;border-color:var(--ivory)!important}
+    .quick-facts{background:var(--ivory)!important;color:var(--navy)!important;border-color:var(--ivory)!important}
+    .quick-facts .fact strong,.quick-facts .fact span{color:var(--navy)!important}
+    #about,#skills,#experience,#approach,#impact,#contact{background:var(--navy)!important;color:var(--ivory)!important}
+    #about .section-title,#skills .section-title,#experience .section-title,#approach .section-title,#impact .section-title,#contact .section-title{color:var(--ivory)!important}
+    #about .section-desc,#skills .section-desc,#experience .section-desc,#approach .section-desc,#impact .section-desc,#contact .section-desc{color:#e2e5ec!important}
+    #about .panel p,#skills .skill-card p,#experience .role p,#impact .achievement p,.principle span{color:#e2e5ec!important}
+    .timeline:before,.timeline-fill{background:var(--ivory)!important;opacity:.65}
+    .role:before{background:var(--navy)!important;border-color:var(--ivory)!important;box-shadow:0 0 0 4px rgba(248,245,239,.12)!important}
+    .company-tile-light,.company-tile-dark,.company-tile-lilac{background:var(--navy)!important;color:var(--ivory)!important;border-color:rgba(248,245,239,.28)!important}
+    .company-mark,.company-index,.company-tile p,.role .company{color:var(--ivory)!important}
+    .approach-step.active,.approach-step:hover{background:var(--ivory)!important;color:var(--navy)!important}
+    .approach-step.active strong,.approach-step.active small,.approach-step.active span{color:var(--navy)!important}
+    .detail-dot,.approach-progress span{background:var(--ivory)!important}
+    .impact-note{background:transparent!important;border-color:var(--ivory)!important;color:#e2e5ec!important}
+    .impact-note strong{color:var(--ivory)!important}
+    .contact-box{background:var(--navy)!important}
+    /* Contrast fix: older chapter styles explicitly set this heading dark. */
+    #contact .contact-box h2{color:var(--ivory)!important;-webkit-text-fill-color:var(--ivory)!important}
+    #contact .contact-box .kicker{color:var(--ivory)!important}
+    #contact .contact-box p,#contact .contact-box .contact-placeholder{color:#e2e5ec!important}
+    .contact-placeholder{border-color:var(--ivory)!important;color:#e2e5ec!important}
+    footer{background:var(--ivory)!important;color:var(--navy)!important;border-color:var(--ivory)!important}
+    footer a,footer .brand,footer .footer-links{color:var(--navy)!important}
+    .section-head{border-color:var(--ivory)!important}
+    .panel,.skill-card,.role,.achievement,.education-card,.company-tile,.contact-box{border-radius:14px!important}
+    /* Final global contrast pass: every section follows the same navy + ivory system. */
+    :root{--navy:#14213d;--ivory:#f8f5ef;--soft-ivory:#d8d5ce}
+    body,main,section.content-section,#about,#skills,#approach,#experience,#impact,#contact{background:var(--navy)!important;color:var(--ivory)!important}
+    h1,h2,h3,h4,h5,h6,.achievement h3,#approach .approach-detail h3,.approach-step strong,.company-tile h3,.panel h3,.skill-card h3,.role h3,.system-card h3,.principle b,.detail-output strong,.achievement .index,.company-index,.detail-label,.eyebrow,.kicker,.section-title{color:var(--ivory)!important;-webkit-text-fill-color:var(--ivory)!important}
+    p,li,small,.section-desc,.hero-copy,.hero-note,.approach-detail p,.approach-note,.approach-step small,.company-tile p,.experience-bridge p,.role p,.skill-card p,.panel p,.principle span,.achievement p,.contact-box p,.contact-placeholder,.detail-output span,.brand small,.card-top,.system-card p,.node span,.system-foot{color:var(--soft-ivory)!important}
+    .achievement:before{background:var(--ivory)!important;height:2px!important}
+    .achievement:after,.approach-detail:after{border-color:rgba(248,245,239,.12)!important;box-shadow:0 0 0 18px rgba(248,245,239,.018),0 0 0 36px rgba(248,245,239,.012)!important}
+    .impact-note,.experience-bridge{background:var(--navy)!important;border-color:rgba(248,245,239,.38)!important;color:var(--soft-ivory)!important}
+    .bridge-symbol,.approach-step>span,.node-icon,.skill-symbol,.tag,.role .date{background:var(--ivory)!important;color:var(--navy)!important;border-color:var(--ivory)!important}
+    .approach-step.active,.approach-step:hover{background:var(--ivory)!important;color:var(--navy)!important;border-color:var(--ivory)!important}
+    .approach-step.active strong,.approach-step.active small,.approach-step.active>span,.approach-step:hover strong,.approach-step:hover small{color:var(--navy)!important;-webkit-text-fill-color:var(--navy)!important}
+    .approach-progress span,.timeline-fill,.progress{background:var(--ivory)!important}
+    .company-tile-light,.company-tile-dark,.company-tile-lilac{background:var(--navy)!important;color:var(--ivory)!important;border-color:rgba(248,245,239,.28)!important}
+    .company-mark{color:var(--ivory)!important}
+    .section-head{border-color:rgba(248,245,239,.35)!important}
+    .contact-box h2,.contact-box .kicker{color:var(--ivory)!important;-webkit-text-fill-color:var(--ivory)!important}
+    .contact-box .btn-primary{background:var(--ivory)!important;color:var(--navy)!important}
+    footer{background:var(--ivory)!important;color:var(--navy)!important}
+    footer *,footer a,footer .brand,footer .footer-links{color:var(--navy)!important;-webkit-text-fill-color:var(--navy)!important}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+
+    /* Final V8 correction: preserve the navy/ivory direction and resolve hero-card collisions. */
+    :root{--navy:#14213d;--ivory:#f8f5ef;--soft-ivory:#d8d5ce;--panel:#1d2c49;--line:rgba(248,245,239,.22);--text:var(--ivory);--muted:var(--soft-ivory);--accent:var(--ivory);--accent2:var(--soft-ivory)}
+    body{background:radial-gradient(ellipse at 82% 7%,rgba(91,116,157,.17),transparent 34%),radial-gradient(ellipse at 8% 38%,rgba(91,116,157,.09),transparent 31%),linear-gradient(rgba(248,245,239,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(248,245,239,.025) 1px,transparent 1px),var(--navy);background-size:auto,auto,42px 42px,42px 42px,auto;color:var(--ivory)}
+    header{background:rgba(20,33,61,.92);border-color:rgba(248,245,239,.17)}
+    .brand-mark{background:var(--ivory);color:var(--navy)}
+    .navlinks,.navlinks a,.nav-cta,.eyebrow,.kicker,.hero-note,.system-foot,.card-top,.node span,.fact span{color:var(--soft-ivory)!important}
+    .progress{background:var(--ivory);box-shadow:none}
+    .hero{background:radial-gradient(ellipse at 82% 24%,rgba(105,130,173,.17),transparent 34%),linear-gradient(135deg,rgba(20,33,61,.2),rgba(20,33,61,0))}
+    h1 .shine{background:none;color:var(--ivory);-webkit-text-fill-color:var(--ivory)}
+    .hero-copy{color:var(--soft-ivory)}.hero-copy strong{color:var(--ivory)}
+    .btn-primary,.float-tag,.float-tag.bottom{background:var(--ivory);border-color:var(--ivory);color:var(--navy);box-shadow:none}
+    .btn-primary:hover{background:#e9e5dc;border-color:#e9e5dc}
+    .btn-secondary{color:var(--ivory);border-color:rgba(248,245,239,.38);background:rgba(248,245,239,.025)}
+    .status-dot{background:var(--ivory);box-shadow:0 0 0 5px rgba(248,245,239,.09)}
+    .visual{isolation:isolate;min-width:0;min-height:430px;padding:28px 18px 38px}
+    .orb{background:radial-gradient(circle,rgba(117,143,187,.2),rgba(117,143,187,.05) 48%,transparent 72%)}
+    .system-card{z-index:2;width:min(100%,430px);padding:25px;border-color:rgba(248,245,239,.32);border-radius:22px;background:linear-gradient(145deg,#1d2c49,#172541);transform:none;box-shadow:0 22px 60px rgba(0,0,0,.22)}
+    .system-card h3,.node strong{color:var(--ivory)}.system-card p{color:var(--soft-ivory)}
+    .window-dots i,.window-dots i:first-child{background:rgba(248,245,239,.55)}
+    .node{background:rgba(248,245,239,.025);border-color:rgba(248,245,239,.23);border-radius:12px;min-width:0}
+    .node-icon{background:var(--ivory);color:var(--navy);border:0}.node strong{font-size:.8rem}.node span{font-size:.72rem!important}
+    .system-foot{border-color:rgba(248,245,239,.2)}
+    .float-tag{z-index:3;top:4px;right:4px;border-radius:10px;padding:9px 12px;font-size:.68rem}
+    .float-tag.bottom{top:auto;bottom:0;left:4px;right:auto;border-radius:10px;padding:10px 13px;font-size:.68rem;max-width:calc(100% - 8px)}
+    .quick-facts{background:rgba(13,24,46,.82);border-color:rgba(248,245,239,.16)}.quick-facts .fact strong{color:var(--ivory)}
+    section.content-section:nth-of-type(even){background:rgba(248,245,239,.018)}
+    .section-head{border-color:rgba(248,245,239,.62)}.kicker{color:var(--soft-ivory)!important}
+    .panel,.skill-card,.role,.achievement,.education-card{background:linear-gradient(145deg,rgba(29,44,73,.92),rgba(20,33,61,.92));border-color:rgba(248,245,239,.2)}
+    .panel p,.section-desc,.skill-card p,.role p,.achievement p,.education-card p,.impact-note{color:var(--soft-ivory)}
+    .skill-symbol,.tag,.role .date{color:var(--ivory);border-color:rgba(248,245,239,.2);background:rgba(248,245,239,.045)}
+    .role .company,.achievement .index,.impact-note strong{color:var(--ivory)}
+    .contact-box{background:linear-gradient(135deg,#1d2c49,#14213d);border-color:rgba(248,245,239,.25)}
+    footer{background:#101b32;color:var(--soft-ivory)}
+    @media(max-width:850px){.visual{min-height:0;padding:26px 10px 42px;max-width:560px}.system-card{width:100%;padding:23px}.float-tag{right:4px;top:0}.float-tag.bottom{left:4px;bottom:0}}
+    @media(max-width:520px){.visual{padding:28px 0 43px;min-height:0}.system-card{padding:20px;border-radius:20px}.card-top{font-size:.64rem;gap:8px}.system-card h3{font-size:1.18rem;margin-top:20px}.system-card p{font-size:.82rem;line-height:1.7}.nodes{gap:10px;margin-top:21px}.node{padding:12px;min-height:105px}.node strong{font-size:.78rem}.node span{font-size:.69rem!important;line-height:1.45}.system-foot{font-size:.62rem;flex-wrap:wrap}.float-tag{font-size:.61rem;padding:8px 10px}.float-tag.bottom{font-size:.61rem;line-height:1.35;max-width:calc(100% - 8px)} }
+  
+    /* ==========================================================================
+       Version 9 — art-directed midnight-navy background and refined hero card.
+       Isolated: delete this block and the <div class="bg9"> after <body> to revert to V8.
+       ========================================================================== */
+    :root{--cob:#6F8FDB;--cobd:#3B5BA9}
+    html{background:#14213D}
+    body,main,section.content-section,#about,#skills,#approach,#experience,#impact,#contact,.hero{background:transparent!important}
+    .hero:before{display:none!important}
+    .bg9{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden;background:radial-gradient(70% 55% at 0% 0%,rgba(59,91,169,.45),transparent 65%),radial-gradient(65% 50% at 100% 100%,rgba(47,79,150,.38),transparent 65%),radial-gradient(45% 35% at 100% 0%,rgba(111,143,219,.10),transparent 70%),linear-gradient(180deg,transparent 55%,rgba(8,14,30,.4))}
+    .bg9 svg{position:absolute;inset:0;width:100%;height:100%;-webkit-mask-image:radial-gradient(ellipse 78% 58% at 50% 42%,transparent 34%,#000 98%);mask-image:radial-gradient(ellipse 78% 58% at 50% 42%,transparent 34%,#000 98%)}
+    .bg9 svg.ar{inset:auto;width:clamp(220px,28vw,430px);height:clamp(220px,28vw,430px);-webkit-mask-image:none;mask-image:none}
+    .bg9 svg.ar.r{top:0;right:0}.bg9 svg.ar.l{bottom:0;left:0}
+    .bg9 .c path{fill:none;stroke:var(--cob);stroke-opacity:.15;stroke-width:1}.bg9 .c .i{stroke-opacity:.3;stroke-width:1.4}
+    /* hero card: straight, layered, framed with cobalt corner brackets */
+    .system-card{border-radius:4px!important;border:1px solid rgba(248,245,239,.24)!important;background:linear-gradient(160deg,#1c2f55,#16264a 60%,#14213D)!important;box-shadow:0 1px 0 rgba(248,245,239,.07) inset,0 48px 80px -40px rgba(3,7,18,.95),0 14px 30px -18px rgba(3,7,18,.7)!important}
+    .system-card:before,.system-card:after{content:"";position:absolute;width:24px;height:24px;border:2px solid var(--cob);background:none;opacity:1;pointer-events:none}
+    .system-card:before{inset:-9px auto auto -9px;border-right:0;border-bottom:0}
+    .system-card:after{inset:auto -9px -9px auto;border-left:0;border-top:0}
+    .node{background:rgba(248,245,239,.03)!important;border:1px solid rgba(248,245,239,.16)!important;border-radius:3px!important}
+    .node-icon,.skill-symbol{background:transparent!important;color:var(--cob)!important;border:1px solid rgba(111,143,219,.55)!important;border-radius:3px!important}
+    .orb{background:radial-gradient(circle,rgba(59,91,169,.3),transparent 70%)!important}
+    .float-tag,.float-tag.bottom{background:rgba(20,33,61,.94)!important;color:var(--ivory)!important;border:1px solid rgba(248,245,239,.28)!important;border-radius:3px!important;letter-spacing:.06em}
+    /* shared surfaces: translucent navy, hairline borders, small radii */
+    .panel,.skill-card,.role,.achievement,.education-card,.company-tile,.company-tile-light,.company-tile-dark,.company-tile-lilac,.contact-box,.approach-detail{background:linear-gradient(160deg,rgba(29,44,73,.9),rgba(20,33,61,.88))!important;border:1px solid rgba(248,245,239,.16)!important;border-radius:6px!important;box-shadow:0 1px 0 rgba(248,245,239,.05) inset,0 26px 50px -34px rgba(4,8,20,.9)!important}
+    .principle,.approach-step{border-radius:4px!important;border-color:rgba(248,245,239,.18)!important}
+    .tag,.role .date{background:rgba(248,245,239,.06)!important;color:var(--ivory)!important;border:1px solid rgba(248,245,239,.22)!important;border-radius:3px!important}
+    .btn,.nav-cta,.menu-btn,.eyebrow,.brand-mark{border-radius:4px!important}
+    .section-head{border-left-color:var(--cob)!important}
+    .quick-facts{background:rgba(10,18,38,.55)!important;color:var(--ivory)!important;border-color:rgba(248,245,239,.14)!important;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+    .quick-facts .fact strong{color:var(--ivory)!important}.quick-facts .fact span{color:var(--soft-ivory)!important}
+    footer{background:rgba(10,18,38,.7)!important;color:var(--soft-ivory)!important;border-color:rgba(248,245,239,.14)!important}
+    footer *,footer a,footer .brand,footer .footer-links{color:var(--soft-ivory)!important;-webkit-text-fill-color:var(--soft-ivory)!important}
+    .eyebrow:before{background:var(--cob)!important;box-shadow:0 0 0 4px rgba(111,143,219,.18)!important}
+    /* floating labels sit fully outside the card: reserved space above and below */
+    .visual{padding:58px 12px 66px!important;min-height:0!important}
+    .float-tag{top:10px!important;right:12px!important}
+    .float-tag.bottom{top:auto!important;right:auto!important;bottom:10px!important;left:12px!important;max-width:calc(100% - 24px)!important}
+    #skills .skill-card:before,.skill-card:before{background:var(--cob)!important;opacity:.9}
+    .detail-output{background:transparent!important;border:0!important;border-top:1px solid rgba(248,245,239,.16)!important;border-radius:0!important}
+    .menu-btn{white-space:nowrap}
+    @media(min-width:851px){h1{font-size:clamp(3rem,4.9vw,4.6rem)}}
+    @media print{.bg9{display:none}}
+  </style>
+</head>
+<body>
+  <div class="bg9" aria-hidden="true"><svg viewBox="0 0 1000 1000" preserveAspectRatio="xMinYMin slice"><g class="c"><path d="M239 130C242 143 231 165 217 174S174 188 155 189S116 185 99 178S59 163 51 152S49 122 55 108S71 73 88 67S136 67 154 72S184 86 198 95S236 116 239 130Z" class="i"/><path d="M369 130C374 158 338 204 305 226S215 257 173 259S86 253 48 240S-38 205 -55 179S-65 112 -51 81S-11 5 26 -6S130 -3 171 6S239 32 272 52S364 101 369 130Z"/><path d="M505 130C510 174 438 239 386 273S256 325 191 330S54 323 -4 302S-134 247 -161 205S-184 100 -163 53S-91 -60 -33 -78S122 -67 186 -53S300 -24 353 6S499 85 505 130Z"/><path d="M641 130C644 190 531 270 459 315S295 394 209 402S22 394 -57 366S-230 289 -267 232S-310 86 -280 23S-169 -121 -88 -144S113 -128 201 -112S368 -85 441 -45S638 69 641 130Z"/><path d="M774 130C772 206 618 297 527 355S334 465 228 477S-9 466 -110 429S-327 332 -376 260S-442 70 -402 -6S-241 -175 -138 -203S103 -188 216 -171S445 -151 538 -101S776 53 774 130Z" class="i"/><path d="M899 130C890 222 701 322 592 393S374 539 248 555S-39 537 -162 492S-427 376 -488 288S-576 52 -525 -37S-307 -221 -180 -254S95 -250 233 -235S532 -223 643 -162S907 37 899 130Z"/><path d="M1013 130C997 239 782 346 657 430S414 614 268 635S-68 607 -214 554S-534 421 -606 318S-711 34 -646 -68S-366 -258 -217 -298S89 -318 251 -306S626 -298 753 -226S1029 20 1013 130Z"/><path d="M1115 130C1092 256 863 372 725 470S454 691 289 715S-96 678 -266 617S-648 468 -730 349S-841 17 -761 -97S-420 -287 -248 -335S86 -396 272 -389S723 -377 863 -290S1138 3 1115 130Z"/><path d="M1207 130C1178 274 947 401 798 512S495 766 309 794S-124 750 -319 681S-769 516 -860 382S-962 2 -864 -123S-470 -310 -277 -370S88 -486 296 -483S819 -455 971 -353S1236 -14 1207 130Z" class="i"/><path d="M1291 130C1258 291 1036 434 876 557S537 838 328 870S-155 824 -376 749S-897 564 -994 415S-1069 -8 -954 -145S-519 -331 -306 -405S93 -588 323 -589S911 -531 1072 -411S1323 -31 1291 130Z"/><path d="M1371 130C1337 308 1131 471 960 606S579 906 346 942S-191 904 -437 822S-1028 613 -1127 449S-1160 -15 -1029 -164S-570 -355 -340 -446S102 -703 352 -706S992 -603 1162 -464S1405 -48 1371 130Z"/></g></svg><svg viewBox="0 0 1000 1000" preserveAspectRatio="xMaxYMax slice"><g class="c"><path d="M970 880C967 893 945 905 931 915S903 939 885 941S845 937 827 931S785 915 777 903S766 868 775 856S812 838 830 832S864 823 884 823S932 825 947 835S973 866 970 880Z" class="i"/><path d="M1085 880C1079 909 1036 936 1006 959S943 1011 905 1017S815 1008 774 994S678 960 660 932S644 853 665 828S746 792 786 779S860 748 903 748S1012 757 1042 779S1091 850 1085 880Z"/><path d="M1193 880C1184 926 1128 968 1083 1003S984 1082 924 1092S783 1081 720 1059S566 1005 540 963S528 841 562 802S683 751 744 728S859 665 924 664S1092 688 1137 724S1202 833 1193 880Z"/><path d="M1297 880C1286 942 1221 1002 1162 1049S1026 1152 942 1165S749 1157 662 1128S452 1051 419 993S421 831 468 778S621 711 701 677S860 574 947 573S1169 621 1227 672S1307 817 1297 880Z"/><path d="M1398 880C1386 958 1316 1037 1244 1097S1068 1219 960 1237S711 1237 601 1201S337 1097 301 1023S324 824 383 757S557 669 655 622S863 476 972 476S1240 556 1311 623S1409 801 1398 880Z" class="i"/><path d="M1499 880C1489 974 1413 1074 1326 1145S1110 1284 978 1307S667 1323 535 1280S227 1141 189 1051S238 819 307 738S489 621 604 561S867 373 998 376S1305 494 1389 578S1510 785 1499 880Z"/><path d="M1604 880C1595 989 1510 1110 1409 1193S1154 1349 996 1378S616 1415 465 1365S126 1184 88 1076S159 817 235 720S415 565 546 492S871 269 1023 276S1362 436 1459 537S1612 770 1604 880Z"/><path d="M1711 880C1705 1003 1606 1145 1490 1240S1198 1415 1015 1451S560 1512 391 1453S39 1223 1 1098S84 816 164 702S333 500 481 413S873 166 1048 180S1415 382 1525 498S1717 756 1711 880Z"/><path d="M1821 880C1818 1017 1700 1177 1569 1286S1244 1486 1035 1529S500 1612 316 1544S-30 1260 -68 1116S6 814 86 682S245 425 409 327S873 69 1070 92S1464 330 1590 461S1825 742 1821 880Z" class="i"/><path d="M1933 880C1931 1031 1792 1208 1646 1331S1291 1563 1056 1613S438 1713 242 1633S-83 1292 -124 1130S-78 809 -2 660S149 342 332 234S870 -18 1090 12S1515 279 1655 423S1934 728 1933 880Z"/><path d="M2042 880C2042 1045 1884 1238 1723 1376S1339 1649 1080 1705S379 1811 172 1716S-120 1321 -167 1141S-177 800 -107 633S50 255 252 139S863 -97 1108 -57S1569 227 1724 383S2042 714 2042 880Z"/></g></svg><svg class="ar r" viewBox="0 0 600 600"><defs><linearGradient id="fa" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6F8FDB" stop-opacity=".22"/><stop offset="1" stop-color="#6F8FDB" stop-opacity="0"/></linearGradient></defs><g fill="url(#fa)" stroke="#6F8FDB" stroke-opacity=".16"><path d="M560 0H606L370 560H324Z"/><path d="M468 0H514L278 560H232Z"/><path d="M376 0H422L186 560H140Z"/><path d="M284 0H330L94 560H48Z"/><path d="M192 0H238L2 560H-44Z"/></g></svg><svg class="ar l" viewBox="0 0 600 600"><defs><linearGradient id="fb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6F8FDB" stop-opacity=".22"/><stop offset="1" stop-color="#6F8FDB" stop-opacity="0"/></linearGradient></defs><path d="M0 600V470H110V380H220V290H330V600Z" fill="url(#fb)"/><path d="M0 470H110V380H220V290H330V200M110 380V600M220 290V600M330 200V600" fill="none" stroke="#6F8FDB" stroke-opacity=".22"/></svg></div>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#home" aria-label="Aranya Mukherjee home"><span class="brand-mark">AM</span><span>Aranya Mukherjee<small>IT Operations · Production Support</small></span></a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navlinks">Menu ☰</button>
+      <nav class="navlinks" id="navlinks" aria-label="Main navigation">
+        <a href="#about">Profile</a><a href="#skills">Expertise</a><a href="#approach">My approach</a><a href="#experience">Experience</a><a class="nav-cta" href="#contact">Contact ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main id="home">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="reveal visible">
+          <div class="eyebrow">10+ YEARS <span aria-hidden="true">/</span> ENTERPRISE IT <span aria-hidden="true">/</span> SERVICE RELIABILITY</div>
+          <h1>Keeping critical technology <span class="shine">reliable. Making operations better.</span></h1>
+          <p class="hero-copy"><strong>I'm Aranya Mukherjee.</strong> My background spans IT operations, production support, enterprise infrastructure, and service workflows. I focus on understanding impact, investigating with evidence, coordinating recovery, and following through on lessons that can improve the next response.</p>
+          <div class="actions"><a class="btn btn-primary" href="#approach">See how I work <span aria-hidden="true">↗</span></a><a class="btn btn-secondary" href="#experience">Explore my background <span aria-hidden="true">↓</span></a></div>
+          <div class="hero-note"><span class="status-dot" aria-hidden="true"></span>Evidence-led problem solving. Clear communication. Operational follow-through.</div>
+        </div>
+        <div class="visual reveal delay-2" aria-label="Illustration of connected IT systems">
+          <div class="orb pulse"></div>
+          <div class="float-tag">● SERVICE CONTINUITY</div>
+          <div class="system-card">
+            <div class="card-top"><span>FIELD NOTES / 001 — OPERATIONS</span><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span></div>
+            <h3>The work behind uptime.</h3><p>Observe the signal. Understand the impact. Coordinate the response.</p>
+            <div class="nodes">
+              <div class="node"><div class="node-icon">⌘</div><strong>Infrastructure</strong><span>Systems & services</span></div>
+              <div class="node"><div class="node-icon">⌁</div><strong>Monitoring</strong><span>Signals & triage</span></div>
+              <div class="node"><div class="node-icon">↗</div><strong>Incident response</strong><span>Ownership & recovery</span></div>
+              <div class="node"><div class="node-icon">✓</div><strong>Service quality</strong><span>Stability & follow-up</span></div>
+            </div>
+            <div class="system-foot"><span>01 Observe&nbsp; → &nbsp;02 Diagnose&nbsp; → &nbsp;03 Restore</span><span>● CONTINUITY</span></div>
+          </div>
+          <div class="float-tag bottom">SIGNAL → RESPONSE → FOLLOW-THROUGH</div>
+        </div>
+      </div>
+    </section>
+    <div class="quick-facts"><div class="wrap facts">
+      <div class="fact"><strong>10+ years</strong><span>IT operations and production support</span></div>
+      <div class="fact"><strong>Enterprise IT</strong><span>Infrastructure and service environments</span></div>
+      <div class="fact"><strong>Operational ownership</strong><span>Investigate · coordinate · follow through</span></div>
+      <div class="fact"><strong>Continuous improvement</strong><span>Learn from issues; strengthen processes</span></div>
+    </div></div>
+    <section class="content-section" id="about"><div class="wrap">
+      <div class="section-head reveal"><div class="kicker">Professional profile</div><h2 class="section-title">Technical discipline, operational ownership.</h2><p class="section-desc">Across more than a decade in IT, the through-line is dependable execution: understand the business impact, work the evidence, coordinate the response, and turn lessons into better operational practice.</p></div>
+      <div class="about-grid">
+        <article class="panel reveal"><h3>How I approach critical work</h3><p>I approach operational issues with a clear sequence: assess impact, establish facts, prioritize recovery, coordinate the right people, communicate clearly, and close the loop with follow-up actions. The goal is not only to restore service, but to make the next response more informed and effective.</p><div class="principles"><div class="principle"><b>Service first</b><span>Prioritize impact and restoration.</span></div><div class="principle"><b>Evidence-led</b><span>Investigate before assuming.</span></div><div class="principle"><b>Own the outcome</b><span>Coordinate through resolution.</span></div><div class="principle"><b>Learn and improve</b><span>Turn incidents into action.</span></div></div></article>
+        <article class="panel reveal delay-1"><h3>Where my experience sits</h3><p>My background combines production support, enterprise infrastructure, IT service workflows, scheduled operations, and cross-team coordination. I work at the intersection of technical investigation and the disciplined processes that keep services dependable.</p><div class="tags"><span class="tag">Production Support</span><span class="tag">IT Operations</span><span class="tag">Incident Management</span><span class="tag">Infrastructure</span><span class="tag">Troubleshooting</span><span class="tag">Service Reliability</span><span class="tag">Root Cause Analysis</span><span class="tag">Operational Coordination</span></div></article>
+      </div>
+    </div></section>
+    <section class="content-section" id="skills" style="padding-top:20px"><div class="wrap">
+      <div class="section-head reveal"><div class="kicker">Technical expertise</div><h2 class="section-title">Tools and practices in the operational toolkit.</h2><p class="section-desc">A practical mix of service-management workflows, scheduling, infrastructure knowledge, and incident investigation—organized around the work each area supports.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-symbol">01</div><h3>Production Support</h3><p>Incident triage, issue investigation, service restoration, and operational handovers.</p><div class="tags"><span class="tag">Incident response</span><span class="tag">Troubleshooting</span></div></article>
+        <article class="skill-card reveal delay-1"><div class="skill-symbol">02</div><h3>ITSM & Workflow</h3><p>Structured service workflows, ticket coordination, and change/incident processes.</p><div class="tags"><span class="tag">ServiceNow</span><span class="tag">JIRA</span></div></article>
+        <article class="skill-card reveal delay-2"><div class="skill-symbol">03</div><h3>Scheduling & Batch</h3><p>Operational awareness of scheduled workloads, dependencies, and job execution.</p><div class="tags"><span class="tag">Control-M</span><span class="tag">Momentum</span></div></article>
+        <article class="skill-card reveal delay-3"><div class="skill-symbol">04</div><h3>Enterprise Infrastructure</h3><p>Infrastructure support and troubleshooting across enterprise technology environments.</p><div class="tags"><span class="tag">Windows Server</span><span class="tag">PKI</span></div></article>
+      </div>
+    </div></section>
+    <section class="content-section" id="approach" aria-labelledby="approach-title"><div class="wrap">
+      <div class="section-head reveal"><div class="kicker">My operating model</div><h2 class="section-title" id="approach-title">When a service is at risk, clarity matters.</h2><p class="section-desc">A practical incident-response sequence: understand the impact, work from evidence, coordinate recovery, and close the loop. Select a stage to see what it involves.</p></div>
+      <div class="approach-layout reveal">
+        <div class="approach-steps" role="group" aria-label="Incident response stages">
+          <button class="approach-step active" type="button" data-stage="0" aria-pressed="true"><span>01</span><strong>Assess impact</strong><small>What is affected?</small></button>
+          <button class="approach-step" type="button" data-stage="1" aria-pressed="false"><span>02</span><strong>Investigate</strong><small>What does the evidence say?</small></button>
+          <button class="approach-step" type="button" data-stage="2" aria-pressed="false"><span>03</span><strong>Coordinate recovery</strong><small>What restores service safely?</small></button>
+          <button class="approach-step" type="button" data-stage="3" aria-pressed="false"><span>04</span><strong>Follow through</strong><small>How do we reduce recurrence?</small></button>
+        </div>
+        <article class="approach-detail" aria-live="polite" aria-atomic="true">
+          <div class="detail-label"><span class="detail-dot"></span><span id="approach-counter">STAGE 01 / 04</span></div>
+          <h3 id="approach-heading">Assess impact before chasing symptoms.</h3>
+          <p id="approach-copy">Establish what is affected, the urgency, the user or business impact, and what is known versus assumed. This creates a shared starting point for the response.</p>
+          <div class="detail-output"><span>THE OUTPUT</span><strong id="approach-output">A clear priority and a common understanding of impact.</strong></div>
+          <div class="approach-progress" aria-hidden="true"><span id="approach-progress-fill"></span></div>
+        </article>
+      </div>
+      <p class="approach-note">This is a general operating model, not a claim about a specific incident. Project examples and outcomes will be added from verified, non-confidential work history.</p>
+    </div></section>
+    <section class="content-section" id="experience"><div class="wrap">
+      <div class="section-head reveal"><div class="kicker">Professional background</div><h2 class="section-title">Enterprise environments. Operational perspective.</h2><p class="section-desc">My career includes experience associated with TCS, Bank of America, and Wipro. The full role chronology and responsibilities should be read alongside my resume.</p></div>
+      <div class="company-grid reveal" aria-label="Employers in professional history">
+        <article class="company-tile company-tile-light"><span class="company-index">01 / EXPERIENCE</span><h3>Tata Consultancy Services</h3><p>TCS</p><div class="company-mark">TCS</div></article>
+        <article class="company-tile company-tile-dark"><span class="company-index">02 / EXPERIENCE</span><h3>Bank of America</h3><p>Enterprise financial services</p><div class="company-mark">BofA</div></article>
+        <article class="company-tile company-tile-lilac"><span class="company-index">03 / EXPERIENCE</span><h3>Wipro</h3><p>Technology services</p><div class="company-mark">W</div></article>
+      </div>
+      <div class="experience-bridge"><span class="bridge-symbol">↗</span><p>My focus across IT operations and production support is the connection between technical investigation, service continuity, and disciplined follow-through.</p></div>
+    </div></section>
+    <section class="content-section" id="impact" style="padding-top:10px"><div class="wrap">
+      <div class="section-head reveal"><div class="kicker">How I add value</div><h2 class="section-title">Not just keeping systems running—improving the response around them.</h2><p class="section-desc">The value I bring is a disciplined approach to service impact, technical investigation, and operational follow-through. Specific project outcomes will be included where they can be accurately substantiated.</p></div>
+      <div class="achievement-grid">
+        <article class="achievement reveal"><div class="index">01 / OWNERSHIP</div><h3>Bring structure to incidents</h3><p>Focus on impact, evidence, prioritization, communication, and coordinated recovery so that urgent issues are handled with clarity.</p></article>
+        <article class="achievement reveal delay-1"><div class="index">02 / PREVENTION</div><h3>Look beyond the immediate fix</h3><p>Use problem-solving and follow-up to identify recurring patterns, document lessons, and support more durable operational outcomes.</p></article>
+        <article class="achievement reveal delay-2"><div class="index">03 / EXECUTION</div><h3>Make operational work dependable</h3><p>Bring discipline to service workflows, scheduling awareness, handovers, and cross-team coordination in enterprise environments.</p></article>
+      </div>
+      <div class="impact-note reveal"><strong>Evidence over buzzwords.</strong><span>Case studies and metrics should explain the challenge, my specific contribution, and the outcome—without exposing confidential systems or data.</span></div>
+    </div></section>
+    <section class="content-section" id="contact"><div class="wrap"><div class="contact-box reveal"><div><div class="kicker">Get in touch</div><h2>Let's talk about reliable IT.</h2><p>For opportunities related to IT operations, production support, enterprise infrastructure, and service reliability, feel free to connect.</p><div class="contact-placeholder">Explore the existing contact page for my current contact details and professional links.</div></div><div class="contact-actions"><a class="btn btn-primary" href="https://resume.aranya-mukherjee.workers.dev/#contact" target="_blank" rel="noopener noreferrer">Contact & professional links ↗</a><a class="btn btn-secondary" href="#home">Back to top ↑</a></div></div></div></section>
+  </main>
+  <footer><div class="wrap footer-inner"><span>© <span id="year"></span> Aranya Mukherjee · IT Operations Portfolio</span><div class="footer-links"><a href="#about">Profile</a><a href="#approach">My approach</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div></div></footer>
+  <script>
+    (()=>{
+      const progress=document.getElementById('progress');
+      const menuBtn=document.getElementById('menuBtn');
+      const nav=document.getElementById('navlinks');
+      const timeline=document.getElementById('timeline');
+      const timelineFill=document.getElementById('timelineFill');
+      const approachContent=[
+        {heading:'Assess impact before chasing symptoms.',copy:'Establish what is affected, the urgency, the user or business impact, and what is known versus assumed. This creates a shared starting point for the response.',output:'A clear priority and a common understanding of impact.'},
+        {heading:'Investigate from evidence, not assumptions.',copy:'Review available alerts, logs, recent changes, dependencies, and repeat patterns. Keep observations separate from hypotheses and update the working picture as facts emerge.',output:'A defensible working hypothesis and the next diagnostic action.'},
+        {heading:'Coordinate a safe path to recovery.',copy:'Align the right technical owners, communicate status and risk, and prioritize the safest practical restoration path. Track decisions and validate service recovery rather than assuming the issue is resolved.',output:'Coordinated action, clear communication, and a validated recovery.'},
+        {heading:'Close the loop after service returns.',copy:'Capture what happened, document useful findings, and identify follow-up actions such as monitoring, runbook, automation, or process improvements where appropriate.',output:'Useful learning and concrete follow-up—not just a closed ticket.'}
+      ];
+      const approachButtons=[...document.querySelectorAll('.approach-step')];
+      const approachCounter=document.getElementById('approach-counter');
+      const approachHeading=document.getElementById('approach-heading');
+      const approachCopy=document.getElementById('approach-copy');
+      const approachOutput=document.getElementById('approach-output');
+      const approachProgress=document.getElementById('approach-progress-fill');
+      approachButtons.forEach(button=>button.addEventListener('click',()=>{
+        const index=Number(button.dataset.stage);const stage=approachContent[index];if(!stage)return;
+        approachButtons.forEach((item,i)=>{const active=i===index;item.classList.toggle('active',active);item.setAttribute('aria-pressed',String(active))});
+        approachCounter.textContent=`STAGE ${String(index+1).padStart(2,'0')} / 04`;
+        approachHeading.textContent=stage.heading;approachCopy.textContent=stage.copy;approachOutput.textContent=stage.output;approachProgress.style.width=`${(index+1)*25}%`;
+      }));
+
+      document.getElementById('year').textContent=new Date().getFullYear();
+      menuBtn.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));menuBtn.textContent=open?'Close ×':'Menu ☰'});
+      nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');menuBtn.textContent='Menu ☰'}));
+      const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const reveals=[...document.querySelectorAll('.reveal:not(.visible)')];
+      if('IntersectionObserver'in window&&!reduced){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12,rootMargin:'0px 0px -35px 0px'});reveals.forEach(el=>observer.observe(el))}else reveals.forEach(el=>el.classList.add('visible'));
+      let ticking=false;function update(){const max=document.documentElement.scrollHeight-innerHeight;progress.style.width=(max>0?scrollY/max*100:0)+'%';if(timeline&&timelineFill){const r=timeline.getBoundingClientRect();const h=timeline.offsetHeight;const passed=Math.max(0,Math.min(h,innerHeight*.68-r.top));timelineFill.style.height=passed+'px'}ticking=false}window.addEventListener('scroll',()=>{if(!ticking){requestAnimationFrame(update);ticking=true}},{passive:true});window.addEventListener('resize',update);update();
+    })();
+  </script>
+</body>
+</html>
